@@ -1,4 +1,4 @@
-![Jogo da Velha em ação](jogo_da_velha_print.png)
+![Jogo da Velha em ação](jogo_da_velha_print.jpeg)
 
 # Jogo da Velha
 
