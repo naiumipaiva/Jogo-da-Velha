@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsivo.css" />
+  </head>
+  <body>
+    <section class="inicio">
+      <h1>Jogo da Velha</h1>
+      <h2>Escolha com qual jogar</h2>
+      <div class="opcao">
+        <button class="playerX">Jogador (X)</button>
+        <button class="playerO">Jogador (O)</button>
+      </div>
+    </section>
+    <main class="hide">
+      <h1>Jogo da Velha</h1>
+      <div class="vez">
+        <p class="vez-button">Vez do X</p>
+        <p class="vez-button">Vez do O</p>
+      </div>
+      <aside class="tabuleiro">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </aside>
+      <p>by Naiumi</p>
+    </main>
+    <section class="fim hide">
+      <h1 class="textoresult"></h1>
+      <button class="recomecar">Reiniciar Jogo</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
