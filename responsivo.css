@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+  .inicio,
+  .fim,
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .opcao {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vez-button {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .tabuleiro {
+    grid-template-columns: repeat(
+      3,
+      90px
+    ); /* Reduzir ainda mais o tamanho das células em telas muito pequenas */
+  }
+
+  .cell {
+    width: 90px;
+    height: 90px;
+    font-size: 3em; /* Reduzir ainda mais o tamanho da fonte em telas muito pequenas */
+  }
+}
